@@ -1,0 +1,96 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f4f8;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  background-color: #3498db;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.output {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  min-height: 100px;
+  background-color: #f9f9f9;
+  white-space: pre-wrap;
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  color: #333;
+  overflow-wrap: break-word;
+}
+
+/* Specific styles for each page */
+.callbacks .container {
+  border-top: 5px solid #e74c3c;
+}
+
+.promises .container {
+  border-top: 5px solid #2ecc71;
+}
+
+.async-await .container {
+  border-top: 5px solid #f39c12;
+}
+
+.callbacks button {
+  background-color: #e74c3c;
+}
+
+.callbacks button:hover {
+  background-color: #c0392b;
+}
+
+.promises button {
+  background-color: #2ecc71;
+}
+
+.promises button:hover {
+  background-color: #27ae60;
+}
+
+.async-await button {
+  background-color: #f39c12;
+}
+
+.async-await button:hover {
+  background-color: #d35400;
+}
+
